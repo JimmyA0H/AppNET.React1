@@ -1,0 +1,77 @@
+﻿body {
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+    .btn.primary {
+        background: #007bff;
+        color: white;
+    }
+
+        .btn.primary:hover {
+            background: #0068d6;
+        }
+
+    .btn.danger {
+        background: #e63946;
+        color: white;
+    }
+
+        .btn.danger:hover {
+            background: #c53030;
+        }
+
+    .btn.edit {
+        background: #ffb703;
+    }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+    .table th, .table td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tr:hover {
+        background: #f5f5f5;
+    }
